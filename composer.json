@@ -1,0 +1,27 @@
+{
+    "name": "haxorsprogramming/uinsu-web-framework",
+    "description": "Small, fast, secure web framework - Universitas Islam Negeri Sumatera Utara, Fakultas Sains dan Teknologi",
+    "type": "project",
+    "license": "MIT",
+    "require": {
+        "php": "^5.6.37 || ^7.0"
+    },
+    "config": {
+        "optimize-autoloader": true,
+        "preferred-install": "dist"       
+    },
+    "repositories": [
+        {
+            "type": "path",
+            "url": "https://github.com/haxorsprogramming/Uinsu-Web-Framework"
+        }
+    ],
+    "require-dev": {
+        "facade/ignition": "^2.3.6",
+        "fzaninotto/faker": "^1.9.1",
+        "mockery/mockery": "^1.3.1",
+        "nunomaduro/collision": "^5.0",
+        "phpunit/phpunit": "^9.3"
+    }
+     "minimum-stability": "dev"
+}
